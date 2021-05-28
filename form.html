@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="form.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1 class ="text-primary">Registration Page</h1>
+    <form id ="form" onsubmit="event.preventDefault(); registerEmployee()">
+        <div class="mb-2">
+            <label>username</label>
+            <input type="text" id="username" placeholder="create username" required>
+        </div>
+        <div class="mb-2">
+            <label>password</label>
+            <input type="text" id="password" placeholder="create password" required>
+        </div>
+        <div class="mb-2">
+            <label>email</label>
+            <input type="text" id="email" placeholder="enter email" required>
+        </div>
+        <div class="mb-2">
+            <label>mobile</label>
+            <input type="text" id="mobile" placeholder="enter mobile number" required>
+        </div>
+        <div class="mb-2">
+            <input type="submit" value="register">
+        </div>
+     </form>
+     <div id ="parent">
+         <span class="m-2">Ajaykumar</span>
+         <span class="m-2">ajay@481</span>
+         <span class="m-2">ajaykumar@481</span>
+         <span class="m-2">93985263</span>
+         <span style="margin: 16px; cursor: pointer;">&#10060;</span>
+        </div>
+    </div>
+</body>
+</html>
